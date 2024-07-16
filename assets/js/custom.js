@@ -124,3 +124,40 @@
 
 
 })(window.jQuery);
+//Whatsapp message
+
+var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?72326';
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true;
+s.src = url;
+var options = {
+"enabled":true,
+"chatButtonSetting":{
+  "backgroundColor":"#E45825",
+  "ctaText":"",
+  "borderRadius":"10",
+  "marginLeft":"0",
+  "marginBottom":"50",
+  "marginRight":"50",
+  "position":"right"
+},
+"brandSetting":{
+  "brandName":"Avara",
+  "brandSubTitle":"Do not hesitate to contact us",
+  "brandImg":"../images/faviconbg.png",
+  "welcomeText":"Hi there!\nHow can I help you?",
+  "messageText":"Hello, I have a question about",
+  "backgroundColor":"#0a5f54",
+  "ctaText":"Start Chat",
+  "borderRadius":"5",
+  "autoShow":false,
+  "phoneNumber":"622138711104"
+},
+
+};
+s.onload = function() {
+    CreateWhatsappChatWidget(options);
+};
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
