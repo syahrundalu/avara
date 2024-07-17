@@ -134,7 +134,7 @@ s.src = url;
 var options = {
 "enabled":true,
 "chatButtonSetting":{
-  "backgroundColor":"#E45825",
+  "backgroundColor":"#be2030",
   "ctaText":"",
   "borderRadius":"10",
   "marginLeft":"0",
