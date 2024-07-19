@@ -1,6 +1,9 @@
 (function ($) {
 	
-	"use strict";
+	"use strict"
+	;
+
+	
 
 	// Page loading animation
 	$(window).on('load', function() {
@@ -122,7 +125,10 @@
 	});
     
 
-
+	$("body").on("contextmenu", "img", function(e) {
+		return false;
+	});
+	
 })(window.jQuery);
 
 
