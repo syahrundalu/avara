@@ -43,57 +43,7 @@
   </div>
   <!-- ***** Preloader End ***** -->
 
-  <div class="sub-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-8">
-          <ul class="info">
-            <li><i class="fa fa-envelope"></i>info@kinaryaadikaaskari.com</li>
-            <li><i class="fa fa-map"></i> Jl. Rose Garden Galaxy City 2/65 JakaSetia Bekasi Selatan</li>
-          </ul>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-
-  <!-- ***** Header Area Start ***** -->
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                        <img src="assets/images/copy.png">
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                        <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
-                        <li class="scroll-to-section"><a href="index.html#featured">Tentang Kami</a></li>
-                        <li class="has-sub">
-                            <a href="javascript:void(0)">Layanan Kami</a>
-                            <ul class="sub-menu">
-                                <li><a href="audio_specialist.html">Audio Specialist</a></li>
-                                <li><a href="hvac.html">HVAC</a></li>
-                                <li><a href="signage.html">Signage Specialist</a></li>
-                                <li><a href="facade.html">Facade Specialist</a></li>
-                                <li><a href="pipamekanikal.html">Pipa Mekanikal</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Hubungi Kami</a></li> 
-                    </ul>        
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
-        </div>
-    </div>
-</header>
+  <?php include('header.php'); ?>
 <!-- ***** Header Area End ***** -->
 
   <div class="page-heading header-text">
@@ -180,67 +130,9 @@
     </div>
   </div>
 
-  <div class="site-footer">
-		<div class="container">
+  <?php include('footer.php'); ?>
+  <?php include('whatsapp-float.php'); ?>
 
-			<div class="row justify-content-between mt-2">
-				<div class="col-lg-4"  data-aos="fade-right" data-aos-delay="500">
-					<div class="widget">
-						<h3 class="line-top">About Us</h3>
-						<p class="mb-5">Certified kontrator Mechanical enginering, Plumbing, HVAC System, Fire Alarm System.</p>
-
-					</div>
-					<div class="widget">
-						<h3 class="line-top">Connect with us</h3>
-						<ul class="social list-unstyled mb-5">
-							<li><a href="https://www.facebook.com/NusaDinamikaSolusindo" target="_blank"><i class="bi bi-facebook" ></i></a></li>
-							<li><a href="https://api.whatsapp.com/send?phone=6281323322008" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
-							<li><a href="https://www.instagram.com/ndsengineering/" target="_blank"><i class="bi bi-instagram"></i></span></a></li>
-							<li><a href="https://www.linkedin.com/company/nusa-dinamika-solusindo" target="_blank"><i class="bi bi-linkedin" ></i></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-6"  data-aos="fade-left" data-aos-delay="500">
-					<div class="row">
-						<div class="col-12">
-							<div class="widget">
-								<h3 class="line-top">Navigations</h3>
-							</div>
-						</div>
-						<div class="col-6 col-sm-6 col-md-4">
-							<div class="widget">
-								<ul class="links list-unstyled">
-									<li><a href="#">Beranda</a></li>
-									<li><a href="#">Tentang</a></li>
-									<li><a href="#">Layanan</a></li>
-									<li><a href="#">Hubungi Kami</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-6 col-sm-6 col-md-4">
-							<div class="widget">
-								<ul class="links list-unstyled">
-									<li><a href="#">Audio Specialist</a></li>
-									<li><a href="#">HVAC</a></li>
-									<li><a href="#">Signage Specialist</a></li>
-									<li><a href="#">Facade Specialist</a></li>
-									<li><a href="#">Pipa Specialist</a></li>
-								</ul>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-
-			<div class="row justify-content-center text-center copyright">
-				<div class="col-md-8">
-					<p class="small">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; by PT Avara Wirya Arganta
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
