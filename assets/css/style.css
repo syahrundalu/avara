@@ -856,18 +856,30 @@ Banner Style
 --------------------------------------------- 
 */
 
+.main-banner {
+  height: 120vh;
+}
+
 .main-banner .item {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 220px 20% 320px 20%;
   margin-top: 0px;
+  height: 100vh;
 }
 
 .main-banner .item-1 {
   background-image: url(../images/hero.jpeg);
 }
 
+.main-banner .item-2 {
+  background-image: url(../images/hero-2.jpg);
+}
+
+.main-banner .item-3 {
+  background-image: url(../images/hero-3.jpg);
+}
 
 .main-banner .item span.category {
   background-color: #fff;
@@ -882,11 +894,11 @@ Banner Style
 
 .main-banner .item span.category em {
   font-style: normal;
-  color: #be2030;
+  color: #f35525;
 }
 
 .main-banner .item h2 {
-  font-size: 64px;
+  font-size: 62px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
@@ -911,7 +923,7 @@ Banner Style
 }
 
 .main-banner .owl-dots .active {
-  background-color: #be2030;
+  background-color: #f35525;
 }
 
 .main-banner .owl-nav {
@@ -987,7 +999,7 @@ Featured Style
 }
 
 .featured .section-heading h2 {
-  width: 70%;
+  width: 70%;  
 }
 
 .featured .accordion {
@@ -1009,6 +1021,10 @@ Featured Style
   font-size: 17px;
   font-weight: 500;
   color: #1e1e1e;
+}
+
+.featured .accordion-item h2 button {
+  font-weight: 700;
 }
 
 .featured .accordion-button:not(.collapsed) {
