@@ -71,16 +71,16 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                        <li class="scroll-to-section"><a href="#about">Tentang Kami</a></li>
+                        <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+                        <li class="scroll-to-section"><a href="index.html#featured">Tentang Kami</a></li>
                         <li class="has-sub">
                             <a href="javascript:void(0)">Layanan Kami</a>
                             <ul class="sub-menu">
-                                <li><a href="about-us.html">Audio Specialist</a></li>
-                                <li><a href="our-services.html">HVAC</a></li>
-                                <li><a href="contact-us.html">Signage Specialist</a></li>
-                                <li><a href="contact-us.html">Facade Specialist</a></li>
-                                <li><a href="contact-us.html">Pipa Mekanikal</a></li>
+                                <li><a href="audio_specialist.html">Audio Specialist</a></li>
+                                <li><a href="hvac.html">HVAC</a></li>
+                                <li><a href="signage.html">Signage Specialist</a></li>
+                                <li><a href="facade.html">Facade Specialist</a></li>
+                                <li><a href="pipamekanikal.html">Pipa Mekanikal</a></li>
                             </ul>
                         </li>
                         <li><a href="contact.html">Hubungi Kami</a></li> 
@@ -132,7 +132,7 @@
           </div>
         </div>
         <div class="col-lg-5">
-          <form id="contact-form" action="" method="post">
+          <form id="contact-form" action="assets/forms/contact.php" method="post" role="form" class="php-email-form">
             <div class="row">
               <div class="col-lg-12">
                 <fieldset>
@@ -163,6 +163,11 @@
                   <button type="submit" id="form-submit" class="orange-button">Send Message</button>
                 </fieldset>
               </div>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>            
+              <div class="error-message">Sorry</div>
             </div>
           </form>
         </div>
@@ -245,6 +250,8 @@
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
+    <!--Validate-->
+    <script src="assets/php-email-form/validate.js"></script>
 
   </body>
 </html>

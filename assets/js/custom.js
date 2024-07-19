@@ -124,40 +124,69 @@
 
 
 })(window.jQuery);
-//Whatsapp message
 
-var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?72326';
-var s = document.createElement('script');
-s.type = 'text/javascript';
-s.async = true;
-s.src = url;
-var options = {
-"enabled":true,
-"chatButtonSetting":{
-  "backgroundColor":"#be2030",
-  "ctaText":"",
-  "borderRadius":"10",
-  "marginLeft":"0",
-  "marginBottom":"50",
-  "marginRight":"50",
-  "position":"right"
-},
-"brandSetting":{
-  "brandName":"Avara",
-  "brandSubTitle":"Do not hesitate to contact us",
-  "brandImg":"../images/faviconbg.png",
-  "welcomeText":"Hi there!\nHow can I help you?",
-  "messageText":"Hello, I have a question about",
-  "backgroundColor":"#0a5f54",
-  "ctaText":"Start Chat",
-  "borderRadius":"5",
-  "autoShow":false,
-  "phoneNumber":"622138711104"
-},
 
+var menuToggle = document.querySelector(".whatsapp-float"),
+	wrapperMenu = document.querySelector(".nav-whatsapp"),
+	closeWA = document.querySelector(".closeWA");
+var inputs = document.querySelectorAll('.Fcontrol input[type=text], .Fcontrol input[type=email], .Fcontrol textarea');
+
+menuToggle.onclick = function() {
+  wrapperMenu.classList.toggle('active');
+}
+closeWA.onclick = function() {
+  wrapperMenu.classList.remove('active');
 };
-s.onload = function() {
-    CreateWhatsappChatWidget(options);
-};
-var x = document.getElementsByTagName('script')[0];
-x.parentNode.insertBefore(s, x);
+
+for (var i = 0; i < inputs.length; i++) {
+  var input = inputs[i];
+  input.addEventListener('input', function() {
+    var bg = this.value ? 'show' : 'none';
+    this.setAttribute('class', bg);
+  });
+}
+
+function sendToWhatsApp() {
+  /* Input Form */
+  var name = document.getElementById("cName").value;
+  var email = document.getElementById("cEmail").value;
+  var subject = document.getElementById("cSubject").value;
+  var massage = document.getElementById("cMessage").value;
+  var postLink = window.location.href;
+  /* Validation for Required Columns */
+  var error_name = document.getElementById("error_name"),
+    error_email = document.getElementById("error_email"),
+    error_message = document.getElementById("error_message");
+  var text;
+  if (name == "") {
+    text = 'Please enter your name';
+    error_name.setAttribute('data-text', text);
+    return false;
+  }
+  if (email.indexOf("@") == -1 || email.length < 6) {
+    text = 'Please enter valid email';
+    error_email.setAttribute('data-text', text);
+    return false;
+  }
+  if (massage == "") {
+    text = 'Please enter your Massage';
+    error_message.setAttribute('data-text', text);
+    return false;
+  }
+  /* URL Final Whatsapp */ 
+  var message = "New message from " + name + "\n\n"; // Opening Message
+  message += "*Name:* " + name + "\n";
+  message += "*Email:* " + email + "\n";
+  message += "*Subject:* " + subject + "\n";
+  message += "*Massage:* " + massage + "\n\n";
+  message += "=============================" + "\n";
+  message += "*Form:* " + postLink + "\n";
+  message += "=============================";
+  /* WhatsApp Settings */
+  var walink = 'https://api.whatsapp.com/send?',
+    phoneNumber = '6285369596924'; // Your WhatsApp number
+  var encodedMessage = encodeURIComponent(message);
+  var whatsappUrl = walink + "?phone=" + phoneNumber + "&text=" + encodedMessage;
+  window.open(whatsappUrl, '_blank');
+  return true;
+}
