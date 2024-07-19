@@ -1,0 +1,143 @@
+/* 
+---------------------------------------------
+Single Page Style
+--------------------------------------------- 
+*/
+
+.page-heading-audio {
+    background-image: url(../images/hero.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0px;
+    text-align: center;
+  }
+
+  .page-heading-audio span {
+    background-color: #fff;
+    color: #1e1e1e;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  
+  .page-heading-audio span a {
+    color: #1e1e1e;
+  }
+  
+  .page-heading-audio h3 {
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+
+.audiospecialist .main-image img {
+    width: 100%;
+  }
+
+  .audiospecialist .main-content h4 {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .audiospecialist .main-content p {
+    text-align: justify;
+}
+  
+  .audiospecialist .main-content span.category {
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+    display: inline-block;
+    margin-top: 40px;
+  }
+  
+  .audiospecialist .accordion {
+    margin-top: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    --bs-accordion-border-radius: 10px;
+    --bs-accordion-inner-border-radius: 10px;
+    --bs-accordion-bg: #fafafa;
+    --bs-accordion-border-color: none;
+    border: none !important;
+  }
+  
+  .audiospecialist .accordion-header {
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .audiospecialist .accordion-button {
+    box-shadow: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1e1e1e;
+  }
+  
+  .audiospecialist .accordion-button:not(.collapsed) {
+    color: #be2030;
+    background-color: #fafafa;
+    outline: none;
+  }
+  
+  .audiospecialist .accordion-button::after {
+    display: none;
+  }
+  
+  .audiospecialist #headingThree {
+    border-bottom: none;
+  }
+  
+  .audiospecialist .accordion-item:last-of-type .accordion-collapse {
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .audiospecialist .info-table {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+    margin-left: 60px;  
+}
+
+  
+  .audiospecialist .info-table ul li {
+    display: block;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .audiospecialist .info-table ul li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  .audiospecialist .info-table ul li img {
+    float: left;
+    margin-right: 25px;
+  }
+  
+  .audiospecialist .info-table ul li h4 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .audiospecialist .info-table ul li h4 span {
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 400;
+  }
+  
+  
