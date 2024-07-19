@@ -38,7 +38,7 @@
                                 <li><a href="pipamekanikal.php">Pipa Mekanikal</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.html">Hubungi Kami</a></li> 
+                        <li><a href="contact.php">Hubungi Kami</a></li> 
                     </ul>        
                     <a class='menu-trigger'>
                         <span>Menu</span>

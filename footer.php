@@ -28,21 +28,21 @@
 						<div class="col-6 col-sm-6 col-md-4">
 							<div class="widget">
 								<ul class="links list-unstyled">
-									<li><a href="#">Beranda</a></li>
-									<li><a href="#">Tentang</a></li>
-									<li><a href="#">Layanan</a></li>
-									<li><a href="#">Hubungi Kami</a></li>
+									<li><a href="index.php">Beranda</a></li>
+									<li><a href="index.php#featured">Tentang</a></li>
+									<li><a href="index.php#best-deal">Layanan</a></li>
+									<li><a href="contact.php">Hubungi Kami</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-6 col-sm-6 col-md-4">
 							<div class="widget">
 								<ul class="links list-unstyled">
-									<li><a href="#">Audio Specialist</a></li>
-									<li><a href="#">HVAC</a></li>
-									<li><a href="#">Signage Specialist</a></li>
-									<li><a href="#">Facade Specialist</a></li>
-									<li><a href="#">Pipa Specialist</a></li>
+									<li><a href="audio_specialist.php">Audio Specialist</a></li>
+									<li><a href="hvac.php">HVAC</a></li>
+									<li><a href="signage.php">Signage Specialist</a></li>
+									<li><a href="facade.php">Facade Specialist</a></li>
+									<li><a href="pipamekanikal.php">Pipa Specialist</a></li>
 								</ul>
 							</div>
 						</div>
