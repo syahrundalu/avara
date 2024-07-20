@@ -23,7 +23,7 @@
    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
    <link rel="stylesheet" href="assets/css/flaticon/font/flaticon.css">
-
+   <link rel="stylesheet" href="assets/plugins/aos/aos.css">
    <link rel="stylesheet" href="assets/css/audiospecialist.css">
    <meta name="description" content="menyediakan layanan lengkap dalam pembuatan, desain, dan pemasangan media promosi dan advertising. Kami menawarkan solusi kreatif dan efisien untuk kebutuhan advertising baik di dalam ruangan (indoor) maupun luar ruangan (outdoor), termasuk pembuatan billboard, neon box, dan berbagai jenis tanda lainnya. Dengan dukungan peralatan modern dan tenaga ahli profesional, kami mampu memproduksi berbagai bentuk dan ukuran media advertising yang sesuai dengan kebutuhan spesifik klien.kontraktor untuk Chemical, Mechanical dan Electrical yang KHUSUS bergerak dalam bidang water and waste water treatment. Kami mendesain, fabrikasi, instalasi, modifikasi equipment-equipment yang berhubungan dengan water treatment. Pendekatan desain kami adalah penggabungan antara unsure  Mechanical, Operation and Chemical (MOC) untuk menghindarkan masalah yang terjadi.">
 
@@ -130,6 +130,7 @@
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="assets/plugins/aos/aos.js"></script>
 
   </body>
 </html>

@@ -152,7 +152,8 @@
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
     <!--Validate-->
-    <script src="assets/php-email-form/validate.js"></script>
+  <script src="assets/php-email-form/validate.js"></script>
+  <script src="assets/plugins/aos/aos.js"></script>
 
   </body>
 </html>

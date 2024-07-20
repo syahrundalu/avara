@@ -1,7 +1,7 @@
 <div class="site-footer">
 		<div class="container">
 
-			<div class="row justify-content-between mt-2">
+			<div class="row justify-content-between mt-2" data-aos="fade-up" data-aos-duration="1000">
 				<div class="col-lg-4">
 					<div class="widget">
 						<h3 class="line-top">About Us</h3>
