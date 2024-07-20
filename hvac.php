@@ -29,6 +29,21 @@
 
   </head>
 
+  <style>
+    @media (max-width: 767px) {
+    .audiospecialist .info-table {
+      margin-left: 0px;
+      margin-top : 50px;
+    }
+    .audiospecialist .main-content {
+      padding: 0px 10px 0 10px;
+    }
+    .page-heading-audio {
+    padding-top : 200px;
+  }
+  }
+  </style>
+
 <body>
 
   <!-- ***** Preloader Start ***** -->

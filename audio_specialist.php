@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <title>Audio Specialist - PT Avara Wirya Arganta</title>
+    <meta name="description" content="menyediakan solusi lengkap untuk berbagai kebutuhan audio Anda.">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +18,7 @@
 
     <!-- Additional CSS Files -->
    <link rel="stylesheet" href="assets/css/fontawesome.css">
+   <link rel="stylesheet" href="assets/css/audiospecialist.css">
    <link rel="stylesheet" href="assets/css/style.css">
    <link rel="stylesheet" href="assets/css/owl.css">
    <link rel="stylesheet" href="assets/css/animate.css">
@@ -24,9 +26,24 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
    <link rel="stylesheet" href="assets/css/flaticon/font/flaticon.css">
 
-   <link rel="stylesheet" href="assets/css/audiospecialist.css">
+
 
   </head>
+
+  <style>
+    @media (max-width: 767px) {
+    .audiospecialist .info-table {
+      margin-left: 0px;
+      margin-top : 50px;
+    }
+    .audiospecialist .main-content {
+      padding: 0px 10px 0 10px;
+    }
+    .page-heading-audio {
+    padding-top : 200px;
+  }
+  }
+  </style>
 
 <body>
 
@@ -82,7 +99,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="info-table">
+          <div class="info-table" id="info-table">
             <ul>
               <li>
                 <h2>AUDIO SPECIALIST SERVICE</h2>

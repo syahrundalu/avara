@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <title>Facade Specialist - PT Avara Wirya Arganta</title>
+    <meta name="description" content="Kami berpengalaman mengerjakan proyek facade untuk berbagai tipe klien, mulai hunian pribadi hingga proyek komersial dengan dengan kesulitan tinggi.">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +28,21 @@
    <link rel="stylesheet" href="assets/css/audiospecialist.css">
 
   </head>
+
+  <style>
+    @media (max-width: 767px) {
+    .audiospecialist .info-table {
+      margin-left: 0px;
+      margin-top : 50px;
+    }
+    .audiospecialist .main-content {
+      padding: 0px 10px 0 10px;
+    }
+    .page-heading-audio {
+    padding-top : 200px;
+  }
+  }
+  </style>
 
 <body>
 

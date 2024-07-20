@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <title>PT Avara Wirya Arganta</title>
+    <meta name="description" content="merupakan perusahaan supply barang dengan berbagai macam produk yang menggabungkan teknologi dalam setiap solusi. Dengan komitmen kuat terhadap inovasi, kualitas, dan keberlanjutan, kami bangga dapat menyediakan solusi dalam masalah Anda.">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -115,7 +116,7 @@
             <div class="container-xxl py-5">
               <div class="container">
                   <div class="row g-0 feature-row">
-                      <div class="col-md-6 col-lg-3 col-6 wow fadeIn" data-wow-delay="0.1s">
+                      <div class="col-md-6 col-lg-3 col-4 wow fadeIn" data-wow-delay="0.1s">
                           <div class="feature-item border h-100 p-5">
                               <div class="box-icon btn-square rounded-circle mb-4" style="width: 64px; height: 64px;">
                                   <i class="bi bi-briefcase-fill"></i>
@@ -125,7 +126,7 @@
                           </div>
                 
                       </div>
-                      <div class="col-md-6 col-lg-3 col-6 wow fadeIn" data-wow-delay="0.3s">
+                      <div class="col-md-6 col-lg-3 col-4 wow fadeIn" data-wow-delay="0.3s">
                           <div class="feature-item border h-100 p-5">
                               <div class="box-icon btn-square rounded-circle mb-4" style="width: 64px; height: 64px;">
                                   <i class="bi bi-person-lines-fill"></i>
@@ -135,7 +136,7 @@
                           </div>
                 
                       </div>
-                      <div class="col-md-6 col-lg-3 col-6 wow fadeIn" data-wow-delay="0.5s">
+                      <div class="col-md-6 col-lg-3 col-4 wow fadeIn" data-wow-delay="0.5s">
                           <div class="feature-item border h-100 p-5">
                               <div class="box-icon btn-square rounded-circle mb-4" style="width: 64px; height: 64px;">
                                   <i class="bi bi-calendar2-event-fill"></i>

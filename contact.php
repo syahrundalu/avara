@@ -28,6 +28,15 @@
 
   </head>
 
+  <style>
+    @media (max-width: 767px) {
+   
+    .page-heading {
+    padding-top : 200px;
+  }
+  }
+  </style>
+
 <body>
 
   <!-- ***** Preloader Start ***** -->
@@ -50,8 +59,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <span class="breadcrumb"><a href="#">Home</a>  /  Contact Us</span>
-          <h3>Contact Us</h3>
+          <span class="breadcrumb"><a href="index.php">Home</a>  /  Contact Us</span>
+          <h3>Hubungi Kami</h3>
         </div>
       </div>
     </div>

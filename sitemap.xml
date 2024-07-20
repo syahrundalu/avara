@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.yoursite.com/home</loc>
+    <loc>https://www.yoursite.com/index.php</loc>
     <lastmod>2024-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.yoursite.com/home/hvac</loc>
+    <loc>https://www.yoursite.com/hvac.php</loc>
     <lastmod>2024-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.yoursite.com/home/audio-specialist</loc>
+    <loc>https://www.yoursite.com/audio_specialist.php</loc>
     <lastmod>2024-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.yoursite.com/home/facade-specialist</loc>
+    <loc>https://www.yoursite.com/facade.php</loc>
     <lastmod>2024-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.yoursite.com/home/pipa-mekanikal</loc>
+    <loc>https://www.yoursite.com/pipamekanikal.php</loc>
     <lastmod>2024-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.yoursite.com/home/signage-specialist</loc>
+    <loc>https://www.yoursite.com/signage.php</loc>
     <lastmod>2024-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

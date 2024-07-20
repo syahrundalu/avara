@@ -32,7 +32,7 @@
       nav: true,
 	  dots:true,
 	  navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-      margin:30,
+      margin:0,
       responsive:{
         992:{
             items:1
